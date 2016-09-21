@@ -107,6 +107,20 @@ author:
   youtube          :
 
 
+# Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+
 # Reading Files
 include:
   - .htaccess
